@@ -4,7 +4,8 @@
 - yarn</br>
 - git</br>
 - rust(cargo, rust-analyzer)</br>
-each newish version
+
+**each newish version**
 # Used
 1. **Install Node.js**
 ```

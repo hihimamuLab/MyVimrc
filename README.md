@@ -1,18 +1,22 @@
 # Require
 - nodejs</br>
-- npm</br>
-- yarn</br>
 - git</br>
 - rust(cargo, rust-analyzer)</br>
 
 **each newish version**
 # Used
+0. **Update latest**
+```
+sudo apt update
+sudo apt upgrade -y
+sudo apt autoremove
+```
 1. **Install Node.js**
 ```
 sudo apt install nodejs
 node -v
 ```
-2. **Install Cargo**
+2. **Install Cargo, rust-analyzer**
 ```
 curl https://sh.rustup.rs -sSf | sh
 echo -e $'export PATH=\"$HOME/.cargo/bin:$PATH\"' >> ~/.bashrc
@@ -20,6 +24,9 @@ source .bashrc
 ```
 ```
 cargo -V
+rupstup update
+rustup component add rustfmt clippy rust-analyzer
+rustup component list --installed
 ```
 3. **Install MyVimrc**
 ```
@@ -32,3 +39,8 @@ vim
 cd ~/.vim/plugged/coc.nvim
 git checkout release
 ```
+4. **Last check**
+```
+vim
+```
+If you can execute this command without error, completion.

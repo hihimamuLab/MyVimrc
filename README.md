@@ -1,6 +1,7 @@
 # Require
 - nodejs</br>
 - wget</br>
+- curl</br>
 - git</br>
 - rust(cargo, rust-analyzer)</br>
 

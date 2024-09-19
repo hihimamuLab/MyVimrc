@@ -7,12 +7,12 @@
 
 **each newish version**
 # Used
-0. **Update latest and install wget**
+0. **Update latest and install wget, curl**
 ```
 sudo apt update
 sudo apt upgrade -y
 sudo apt autoremove
-sudo apt install wget
+sudo apt install wget curl
 ```
 1. **Install Node.js**
 ```

@@ -8,14 +8,20 @@
 - rust(cargo, rust-analyzer)</br>
 
 > [!NOTE]
-> ```
+> ```sh
 > git config --global alias.gtree 'log --graph --oneline --decorate=short --date=short'
 > ```
 
-> [!TIP]
+> [!NOTE]
 > After PlugInstall, you have to change branch of ~/.vim/plugged/coc.nvim to release</br>
-> **.bashrc recommendation**
+> ```sh
+> cd ~/.vim/plugged/coc.nvim
+> git switch release
 > ```
+
+> [!TIP]
+> **.bashrc recommendation**
+> ```bash
 > alias allupdate="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 > alias bconfig="vi ~/.bashrc"
 > alias vconfig="vi ~/.vimrc"
